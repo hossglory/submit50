@@ -1,0 +1,133 @@
+# Black box 
+
+#### Video Demo:  https://youtu.be/xjN7T2DhBx4
+
+#### Description: Black Box is a groundbreaking mobile application built with the entertainment industry in mind. It offers a comprehensive platform, catering to actors, writers, creatives, and industry professionals, to streamline auditions, facilitate collaboration, enhance learning, and provide valuable resources.
+TODO
+
+
+cs50/problems/2023/x/project
+
+# Black BOx
+
+## Key Features
+
+### Self-Tape Studio
+
+Black Box features a professional Self-Tape Studio, ensuring that actors can record high-quality auditions at their convenience. Say goodbye to complicated setups and hello to professional auditions from the comfort of your own space.
+
+### Teleprompter Kit
+
+Delivering your lines flawlessly has never been easier. Our integrated Teleprompter Kit helps actors maintain eye contact with the camera, significantly improving audition performance.
+
+### Collaboration Spaces
+
+The Collaboration Spaces in Black Box are virtual hubs for industry professionals. Attend live seminars, join interactive Zoom classes, engage in passionate discussions, and expand your network. This feature connects actors, writers, directors, and creatives from around the world.
+
+### Resources Center
+
+Knowledge is power, and Black Box provides a vast Resources Center for industry insights. Explore a diverse collection of articles, video tutorials, and professional tools. Stay updated with the latest trends and gain inspiration for your creative pursuits.
+
+### Profile
+
+Craft a unique digital identity in Black Box with the Profile feature. Create a captivating digital portfolio, build a professional resume, and showcase your skills, specialties, and accomplishments. Let your profile speak volumes about your talent.
+
+### PerformersLink
+
+PerformersLink is your gateway to endless opportunities. Browse through casting calls, project listings, and networking events. Connect with fellow actors, writers, creatives, and directors, and take the next steps in your career.
+
+## Installation
+
+1. **Download Black Box ** from your device's app store: app store soon to come. 
+
+2. **Install** the app on your device.
+
+3. **Open** the app and sign in or create a new account to get started.
+
+## Getting Started
+
+- Upon launching the app, you'll be guided through the onboarding process, helping you set up your profile and preferences.
+
+- Explore the app's features through the intuitive interface and user-friendly navigation.
+
+- Get started with creating your self-tapes, joining seminars, or finding your next audition with PerformersLink.
+
+## Usage
+
+Black Box is designed to be user-friendly and intuitive, but here are some quick guidelines:
+
+- **Self-Tape Studio:** Set up your self-tape, choose your script, and start recording. The Teleprompter Kit is available to assist you during the audition.
+
+- **Collaboration Spaces:** Browse upcoming seminars and classes, join discussions, and network with industry peers. Simply click on an event to participate.
+
+- **Resources Center:** Explore articles, watch video tutorials, and access professional tools. Stay informed about industry trends and improve your skills.
+
+- **Profile:** Customize your digital portfolio with your headshots, resume, and artist statement. Share your unique skills and specialties.
+
+- **PerformersLink:** Search for casting calls, explore project listings, and network with industry professionals. Easily submit your applications or express your interest.
+
+## Code 
+//
+//  SceneDelegate.swift
+//  blackbox
+//
+//  Created by Brandon Hall on 10/5/23.
+//
+
+import UIKit
+
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+
+    var window: UIWindow?
+
+
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        guard let _ = (scene as? UIWindowScene) else { return }
+    }
+
+    func sceneDidDisconnect(_ scene: UIScene) {
+        // Called as the scene is being released by the system.
+        // This occurs shortly after the scene enters the background, or when its session is discarded.
+        // Release any resources associated with this scene that can be re-created the next time the scene connects.
+        // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+    }
+
+    func sceneDidBecomeActive(_ scene: UIScene) {
+        // Called when the scene has moved from an inactive state to an active state.
+        // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+    }
+
+    func sceneWillResignActive(_ scene: UIScene) {
+        // Called when the scene will move from an active state to an inactive state.
+        // This may occur due to temporary interruptions (ex. an incoming phone call).
+    }
+
+    func sceneWillEnterForeground(_ scene: UIScene) {
+        // Called as the scene transitions from the background to the foreground.
+        // Use this method to undo the changes made on entering the background.
+    }
+
+    func sceneDidEnterBackground(_ scene: UIScene) {
+        // Called as the scene transitions from the foreground to the background.
+        // Use this method to save data, release shared resources, and store enough scene-specific state information
+        // to restore the scene back to its current state.
+    }
+
+
+}
+
+
+
+## Contributing
+
+We welcome contributions to make Black Box even better. If you have ideas for improvements or are interested in collaborating with us, please visit our [GitHub repository](https://github.com/yourapp/repository) to learn how you can get involved.
+
+
+## Contact
+
+- **Support:** peakviewsinc@gmail.com
+
+- **Feedback:** We value your feedback. Let us know how we can improve by sending us an email at peakveiwsinc@gmail.com..
